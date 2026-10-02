@@ -1,0 +1,22 @@
+[project]
+name = "forensic-neurosymbolic"
+version = "0.1.0"
+description = "Tesis: enfoque neurosimbólico forense"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "tensorflow>=2.21",
+    "keras>=3",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
